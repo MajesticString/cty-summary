@@ -19,3 +19,39 @@ This allows any Java program to be run on any computer with the Java runtime ins
 Compile targets are places that compiled languages (such as Rust) can be compiled to.
 For example, if a compile target is Windows, a `.exe` file will be generated.
 Whereas if a compile target was MacOS, a `.dmg` file will be generated.
+
+## Markdown
+
+Markdown is a markup language (see the pun?) that compiles to HTML.
+
+Instead of using tags, it uses characters around text to style it.
+
+Example:
+
+````md
+# Equivalent of h1 Tag
+
+## Equivalent of h2 Tag
+
+<!-- ... -->
+
+###### Equivalent of h6 tag
+
+Equivalent of p tag
+
+`code block`
+
+```java
+// large code block with syntax highlighting
+```
+
+_bold text_ (or _bold text_)
+
+**italic text** (or **italic text**)
+
+**_bold and italic text_** (or _**bold and italic text**_)
+
+[links](https://google.com/)
+
+Equivalent of `br` tag --> \
+````
