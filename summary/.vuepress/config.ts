@@ -14,47 +14,16 @@ export default defineUserConfig({
       {
         text: 'Course Summary',
         children: [
-          {
-            text: 'Home',
-            link: '/',
-          },
-          {
-            text: 'Hardware',
-            link: '/hardware.md',
-          },
-          {
-            text: 'Software',
-            link: '/software.md',
-          },
-          {
-            text: 'Numbering Systems',
-            link: '/numbering-systems.md',
-          },
-          {
-            text: 'Boolean Logic',
-            link: '/boolean-logic.md',
-          },
-          {
-            text: 'Internet',
-            link: '/internet.md',
-          },
-          {
-            text: 'Websites',
-            link: '/websites.md',
-          },
-          {
-            text: 'Java',
-            link: '/java.md',
-          },
-          {
-            text: 'Ethics',
-            link: '/ethics.md',
-          },
+          '/',
+          '/hardware.md',
+          '/software.md',
+          '/numbering-systems.md',
+          '/boolean-logic.md',
+          '/internet.md',
+          '/websites.md',
+          '/java.md',
+          '/algorithms.md',
         ],
-      },
-      {
-        text: 'Sorting Algorithms',
-        link: '/sorting-algorithms/README.md',
       },
       {
         text: 'Misc. Info',
@@ -65,64 +34,19 @@ export default defineUserConfig({
       {
         text: 'Course Summary',
         children: [
-          {
-            text: 'Home',
-            link: '/',
-          },
-          {
-            text: 'Hardware',
-            link: '/hardware.md',
-          },
-          {
-            text: 'Software',
-            link: '/software.md',
-          },
-          {
-            text: 'Numbering Systems',
-            link: '/numbering-systems.md',
-          },
-          {
-            text: 'Boolean Logic',
-            link: '/boolean-logic.md',
-          },
-          {
-            text: 'Internet',
-            link: '/internet.md',
-          },
-          {
-            text: 'Websites',
-            link: '/websites.md',
-          },
-          {
-            text: 'Java',
-            link: '/java.md',
-          },
-          {
-            text: 'Ethics',
-            link: '/ethics.md',
-          },
-          {
-            text: 'Sorting Algorithms',
-            children: [
-              {
-                text: 'Home',
-                link: '/sorting-algorithms/README.md',
-              },
-              {
-                text: 'Sorting',
-                link: '/sorting-algorithms/sorting.md',
-              },
-              {
-                text: 'Searching',
-                link: '/sorting-algorithms/searching.md',
-              },
-            ],
-          },
-          {
-            text: 'Misc. Info',
-            link: '/misc/README.md',
-          },
+          '/',
+          '/hardware.md',
+          '/software.md',
+          '/numbering-systems.md',
+          '/boolean-logic.md',
+          '/internet.md',
+          '/websites.md',
+          '/java.md',
         ],
+      },
+      {
+        text: 'Misc. Info',
+        children: ['/misc/README.md'],
       },
     ],
   }),
