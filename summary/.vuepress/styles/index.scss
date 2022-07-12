@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+:root,
+html.dark {
+  --c-brand: #02b3f6;
+  --c-brand-light: #3ac4f7;
+  --font-family-code: 'Fira Code', Consolas, Monaco, 'Andale Mono',
+    'Ubuntu Mono', monospace;
+  scroll-behavior: smooth;
+  --scrollbar-border-radius: 4px;
+  --search-accent-color: var(--c-brand);
+}
