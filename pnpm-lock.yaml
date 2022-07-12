@@ -4,8 +4,6 @@ specifiers:
   '@vuepress/client': 2.0.0-beta.49
   '@vuepress/plugin-search': 2.0.0-beta.49
   '@vuepress/plugin-shiki': 2.0.0-beta.49
-  '@vuepress/plugin-toc': 2.0.0-beta.49
-  '@vuepress/theme-default': 2.0.0-beta.49
   vue: ^3.2.37
   vuepress-vite: 2.0.0-beta.49
 
@@ -13,8 +11,6 @@ devDependencies:
   '@vuepress/client': 2.0.0-beta.49
   '@vuepress/plugin-search': 2.0.0-beta.49
   '@vuepress/plugin-shiki': 2.0.0-beta.49
-  '@vuepress/plugin-toc': 2.0.0-beta.49
-  '@vuepress/theme-default': 2.0.0-beta.49
   vue: 3.2.37
   vuepress-vite: 2.0.0-beta.49_2swkti5cn42xfigpmsn6ifcgpu
 
@@ -486,18 +482,6 @@ packages:
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
       vue: 3.2.37
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@vuepress/plugin-toc/2.0.0-beta.49:
-    resolution: {integrity: sha512-hfsdpWxWupuxtMEvL1h8wo6NX0CC1gHpoGgDcBCr4CLe/sFE8PJbZQUuOVBplSMki9Q6gbqe2ljEkdzXWXsqlQ==}
-    dependencies:
-      '@vuepress/client': 2.0.0-beta.49
-      '@vuepress/core': 2.0.0-beta.49
-      '@vuepress/utils': 2.0.0-beta.49
-      vue: 3.2.37
-      vue-router: 4.1.2_vue@3.2.37
     transitivePeerDependencies:
       - supports-color
     dev: true
