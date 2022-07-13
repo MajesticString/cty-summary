@@ -46,9 +46,14 @@ Example:
 
 ## Base 16
 
-Base 16 is commonly called hexadecimal.
+Base 16 is commonly called hexadecimal. It allows higher numbers to be put into a fewer amount of digits.
 
 Computers commonly use base 16 when binary can be avoided.
+The most common use case of hexadecimal is color codes.
+
+`#FFFFFF` is white
+
+`#000000` is black
 
 When numbers pass 9, the letters `A-F` are used to keep only one digit used.
 
