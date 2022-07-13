@@ -13,7 +13,7 @@ HTML, or HyperText Markup Language, is what provides the content for websites. I
 
 Different tags provide different functionality or styles.
 
-HTML tags are declared using arrow brackets (`<` and `>`) with the tag name going in between. The actual content of the tag goes between the opening and closing tags, with the closing tag being the opening tag with a slash after the opening brace.
+HTML tags are declared using [angle brackets](./misc/README.md#types-of-brackets) with the tag name going in between. The actual content of the tag goes between the opening and closing tags, with the closing tag being the opening tag with a slash after the opening brace.
 
 An example HTML tag:
 
@@ -100,11 +100,113 @@ The body contains all visible content, such as images or text.
 
 ## CSS
 
+CSS stands for "Cascading Style Sheets" and is the language that is used to style HTML.
+
+### HTML Attributes
+
+CSS knows which HTML elements to style through the HTML's attributes and tag name.
+Attributes are key-value pairs that come after the tag name, but before the closing [angle bracket](./misc/README.md#types-of-brackets).
+The most commonly used attributes for styling are `class` and `id`.
+
+#### The ID Attribute
+
+The ID attribute gives an element a unique ID. ID's should be unique. IDs can also be target by links using the pound symbol (`#`).
+
+Syntax:
+
+```html
+<h1 id="title">Why Pineapple Belongs on Pizza</h1>
+```
+
+Linking to an id can be done like so:
+
+`https://example.com/#title`
+
+#### The Class Attribute
+
+The class attribute is a space-separated list of things that the element is (such as a button).
+
+Syntax:
+
+```html
+<h1 class="big text-green">Why Cereal is a Soup</h1>
+```
+
+### CSS Syntax
+
+Selectors go before [curly braces](./misc/README.md#types-of-brackets).
+The curly braces contain key-value pairs of the styles to be applied.
+
+Different selectors can be separated by commas. Spaces are used for nesting.
+IDs are targeted with a pound symbol, classes are targeted with a period.
+
+Example:
+
+```html
+<h1>Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">This</a></h1>
+<p id="truths">Pineapple belongs on pizza</p>
+<p class="lies false">Bread sucks</p>
+```
+
+```css
+/* target all `p` elements */
+p {
+  color: red;
+}
+
+/* only target `a`s inside of `h1`s */
+h1 a {
+  color: green;
+}
+
+/* target the `truths` id */
+#truths {
+  color: blue;
+}
+
+/* target the lies class and the false class */
+.lies,
+.false {
+  /* the "olive" color looks like puke, btw */
+  color: olive;
+}
+```
+
+### Is CSS a Language?
+
+A few years ago, basically no-one would have considered CSS a language.
+However, with recent additions such as the `clamp` and `calc` functions, CSS is becoming more like an actual language.
+
+For example, the `calc` function allows calculations of size to be done between different units with only CSS.
+
+```css
+body {
+  width: calc(100% - 18px);
+}
+```
+
 ## JavaScript
+
+JavaScript, or simply JS, is the language that allows basically all interactivity to be done.
+Without JS, buttons wouldn't do anything, and you wouldn't be able to watch YouTube.
+
+JS can be added to a website using the `script` tag. If a `source` attribute is specified, the script can be in a separate file.
+
+```html
+<body>
+  <script>
+    console.log('prints stuff the console');
+  </script>
+  <script src="./script.js"></script>
+</body>
+```
+
+Since JS wasn't covered in this course and its syntax is so similar to [Java](./java.md), the syntax won't be covered.
 
 ## Web Assembly
 
 Web Assembly (WASM) allows languages other than JS to be used in the web
 JavaScript, as well as other interpreted languages (such as python) are known for being quite slow, since they have to be
 [Just In Time (JIT) compiled](./misc/README.md#interpreted-languages). This
-compilation time decreases the speed of the language. WASM helps to fix this by allowing WASM to be a [compile target](./misc/README.md#compile-targets) for compiled languages, such as [Rust](https://rust-lang.org)
+compilation time decreases the speed of the language.
+WASM helps to fix this by allowing WASM to be a [compile target](./misc/README.md#compile-targets) for compiled languages, such as [Rust](https://rust-lang.org)
