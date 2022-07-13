@@ -2,19 +2,25 @@
   "name": "cty-summary",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev summary",
-    "build": "vuepress build summary"
+    "dev": "vitepress dev summary",
+    "build": "vitepress build summary"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.49",
-    "@vuepress/plugin-search": "2.0.0-beta.49",
-    "@vuepress/plugin-shiki": "2.0.0-beta.49",
-    "vue": "^3.2.37",
-    "vuepress-vite": "2.0.0-beta.49"
+    "vitepress": "1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@types/react",
+        "react",
+        "@algolia/client-search",
+        "react-dom"
+      ]
+    }
   }
 }
