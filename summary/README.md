@@ -1,5 +1,9 @@
 # CTY Summary Project
 
+::: tip
+There is a dark mode toggle and search bar in the upper hand corner
+:::
+
 Along the left, there are different topics that we covered in these 3 weeks.
 
 These pages are also accessible through the navbar.
