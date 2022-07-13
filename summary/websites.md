@@ -13,7 +13,7 @@ HTML, or HyperText Markup Language, is what provides the content for websites. I
 
 Different tags provide different functionality or styles.
 
-HTML tags are declared using [angle brackets](./misc/README.md#types-of-brackets) with the tag name going in between. The actual content of the tag goes between the opening and closing tags, with the closing tag being the opening tag with a slash after the opening brace.
+HTML tags are declared using [angle brackets](./misc/index.md#types-of-brackets) with the tag name going in between. The actual content of the tag goes between the opening and closing tags, with the closing tag being the opening tag with a slash after the opening brace.
 
 An example HTML tag:
 
@@ -105,7 +105,7 @@ CSS stands for "Cascading Style Sheets" and is the language that is used to styl
 ### HTML Attributes
 
 CSS knows which HTML elements to style through the HTML's attributes and tag name.
-Attributes are key-value pairs that come after the tag name, but before the closing [angle bracket](./misc/README.md#types-of-brackets).
+Attributes are key-value pairs that come after the tag name, but before the closing [angle bracket](./misc/index.md#types-of-brackets).
 The most commonly used attributes for styling are `class` and `id`.
 
 #### The ID Attribute
@@ -134,7 +134,7 @@ Syntax:
 
 ### CSS Syntax
 
-Selectors go before [curly braces](./misc/README.md#types-of-brackets).
+Selectors go before [curly braces](./misc/index.md#types-of-brackets).
 The curly braces contain key-value pairs of the styles to be applied.
 
 Different selectors can be separated by commas. Spaces are used for nesting.
@@ -207,6 +207,6 @@ Since JS wasn't covered in this course and its syntax is so similar to [Java](./
 
 Web Assembly (WASM) allows languages other than JS to be used in the web
 JavaScript, as well as other interpreted languages (such as python) are known for being quite slow, since they have to be
-[Just In Time (JIT) compiled](./misc/README.md#interpreted-languages). This
+[Just In Time (JIT) compiled](./misc/index.md#interpreted-languages). This
 compilation time decreases the speed of the language.
-WASM helps to fix this by allowing WASM to be a [compile target](./misc/README.md#compile-targets) for compiled languages, such as [Rust](https://rust-lang.org)
+WASM helps to fix this by allowing WASM to be a [compile target](./misc/index.md#compile-targets) for compiled languages, such as [Rust](https://rust-lang.org)

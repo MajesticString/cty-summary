@@ -34,7 +34,7 @@ export default defineConfig({
       },
       {
         text: 'Misc. Info',
-        link: '/misc/README.md',
+        link: '/misc/index.md',
       },
     ],
     sidebar: [
@@ -54,7 +54,7 @@ export default defineConfig({
       {
         text: 'Misc. Info',
         collapsible: true,
-        items: [{ text: 'More Info', link: '/misc/README.md' }],
+        items: [{ text: 'More Info', link: '/misc/index.md' }],
       },
     ],
   },
