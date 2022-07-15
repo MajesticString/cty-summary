@@ -53,6 +53,8 @@ public class Program {
 
 ### Loops
 
+You can use loops to run code multiple times.
+
 ## Object Oriented Programming
 
 Java is an Object Oriented language. This means that every file must contain a class which contains all of the logic of the program.
