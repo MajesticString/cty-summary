@@ -6,6 +6,13 @@ export default defineConfig({
   vue: {
     reactivityTransform: true,
   },
+  markdown: {
+    theme: {
+      dark: 'one-dark-pro',
+      light: 'github-dark-dimmed',
+    },
+    lineNumbers: true,
+  },
   themeConfig: {
     socialLinks: [
       {
