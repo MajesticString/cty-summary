@@ -55,4 +55,24 @@ public class Program {
 
 ## Object Oriented Programming
 
-Java is an Object Oriented language.
+Java is an Object Oriented language. This means that every file must contain a class which contains all of the logic of the program.
+Variables and methods can be created in this class.
+We can also create `instances` of this class, which gives us access to these methods.
+
+```java
+public class Program {
+  private String printMsg;
+  public Program(String message) {
+    this.printMsg = message;
+  }
+  public print() {
+    System.out.println(this.printMsg);
+  }
+  public static void main(String[] args) {
+    // creating an instance of the class
+    Program program = new Program("Hello!");
+    // call the print method
+    program.print();
+  }
+}
+```
