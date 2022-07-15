@@ -32,6 +32,25 @@ public class Program {
 
 ### Conditional Statements
 
+Sometimes, you might only want to run something only if a condition is met.
+We can accomplish this with `if` statements.
+We can also use the `else` statement to run code if the condition is not met. These can also be chained.
+
+```java
+public class Program {
+  public static void main(String[] args) {
+    // variable
+    boolean shouldRun = true;
+
+    if (shouldRun) {
+      System.out.println("running in an if statement");
+    } else {
+      System.out.println("shouldRun is false!")
+    }
+  }
+}
+```
+
 ### Loops
 
 ## Object Oriented Programming
